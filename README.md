@@ -33,6 +33,9 @@
    ```html
      <textarea class="f-tinymce" data-shortcodes='{{ json_encode([["key" => "[user:firstname]", "name" => "Ім'я користувача"], ["key" => "[user:lastname]", "name" => "Прізвище користувача"]]) }}'></textarea>
    ```
+   ```html
+      <textarea class="f-tinymce" data-shortcodes='@json(\App\Models\Auth\User::tokensList())'></textarea>
+   ```
 
   > 2. **Динамічні шорткоди**:
    ```html
