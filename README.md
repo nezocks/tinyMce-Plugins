@@ -1,6 +1,4 @@
-# TinyMCE Plugins
-
-## Plugins
+# TinyMCE Custom Plugins
 
 <details>
   <summary><strong>Shortcodes</strong></summary>
