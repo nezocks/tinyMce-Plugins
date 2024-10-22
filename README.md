@@ -31,10 +31,10 @@
 
   > 1. **Статичні шорткоди**:
    ```html
-     <textarea class="f-tinymce" data-shortcodes='{{ json_encode([["key" => "[user:firstname]", "name" => "Ім'я користувача"], ["key" => "[user:lastname]", "name" => "Прізвище користувача"]]) }}'></textarea>
+      <textarea class="f-tinymce" data-shortcodes='@json([["key" => "[user:email]", "name" => "Email користувача"]])'></textarea>
    ```
    ```html
-      <textarea class="f-tinymce" data-shortcodes='@json(\App\Models\Auth\User::tokensList())'></textarea>
+      <textarea class="f-tinymce" data-shortcodes='{{ json_encode([["key" => "[user:firstname]", "name" => "Ім'я користувача"], ["key" => "[user:lastname]", "name" => "Прізвище користувача"]]) }}'></textarea>
    ```
 
   > 2. **Динамічні шорткоди**:
